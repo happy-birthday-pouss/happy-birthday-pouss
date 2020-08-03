@@ -1,12 +1,3 @@
-
-/*=======================================================
-          
-                     G o o d L u c k 
-
-=========================================================*/
-
-
-
 body, html {
     height: 100%;
     margin:0;
@@ -16,19 +7,64 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background-image: url(photo7.jpg);
+    background-image: url(selfie-début.jpg);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(photo5.jpg);
+    background-image: url(départ.jpg);
     min-height: 100%;
 }
 .parallax3 {
-    background-image: url(photo4.jpg);
+    background-image: url(selfie-fin.jpg);
     min-height: 100%;
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.parallax4 {
+    background-image: url(la-gueule.jpg);
+    min-height: 100%;
+}
+
+.parallax5 {
+    background-image: url(chateau.jpg);
+    min-height: 100%;
+}
+
+.parallax6 {
+    background-image: url(tiph-riz.jpg);
+    min-height: 100%;
+}
+
+.parallax7 {
+    background-image: url(vélo-rit.jpg);
+    min-height: 100%;
+}
+
+.parallax8 {
+    background-image: url(velo-axel-rit.jpg);
+    min-height: 100%;
+}
+
+.parallax9 {
+    background-image: url(masque.jpg);
+    min-height: 100%;
+}
+
+.parallax10 {
+    background-image: url(jolie-tenue.jpg);
+    min-height: 100%;
+}
+
+.parallax11 {
+    background-image: url(pose-lascive.jpg);
+    min-height: 100%;
+}
+
+.parallax12 {
+    background-image: url(axel-caca-3.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -45,6 +81,18 @@ body, html {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 20px;
+    animation: drop 3.0s ease; /* Make things beautiful */
+    cursor: pointer;
+}
+
+.head2 {
+    position: absolute;
+    color:black;
+    font-size: 100%;
+    top:50%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     animation: drop 3.0s ease; /* Make things beautiful */
     cursor: pointer;
 }
@@ -92,5 +140,3 @@ footer{
 
   @import url('https://fonts.googleapis.com/css?family=Ubuntu'); /*IMPORTANT*/
 
-
-  /*========T H A N K  Y O U=======*/
