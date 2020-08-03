@@ -16,15 +16,15 @@ body, html {
     text-align: center;
 }
 .parallax1 {
-    background-image: url(img/photo7.jpg);
+    background-image: url(photo7.jpg);
     min-height: 100%;
 }
 .parallax2 {
-    background-image: url(img/photo5.jpg);
+    background-image: url(photo5.jpg);
     min-height: 100%;
 }
 .parallax3 {
-    background-image: url(img/photo4.jpg);
+    background-image: url(photo4.jpg);
     min-height: 100%;
 }
 
